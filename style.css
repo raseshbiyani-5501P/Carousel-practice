@@ -1,0 +1,36 @@
+body {
+    background-color: aqua;
+    text-align: center;
+}
+
+.karo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+container {
+    position: relative;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    font: 50px;
+}
+
+.prev {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
